@@ -43,7 +43,7 @@
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
-button {
+.calcKey {
   color: rgb(0, 86, 167);
   text-align: center;
   font-weight: 600;
@@ -57,24 +57,69 @@ button {
   border-radius: 40%;
 }
 
+.calcKey:hover {
+  background-color: grey;
+  color: white;
+}
+
 .keyboard {
   background-color: teal;
   border: solid aqua 5px;
   border-radius: 30px;
   margin: auto;
-  height: 500px;
-  width: 90%;
+  height: 300px;
+  width: 900px;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .row {
+  margin: auto;
+}
+.row.one {
   display: flex;
-  margin: 0 auto;
+  text-align: center;
 }
 
-.buttonDiv {
+.row.two {
+  display: flex;
+  text-align: center;
+}
+
+.row.three {
+  display: flex;
+  text-align: center;
+}
+
+.row.four {
+  display: flex;
+  text-align: center;
+}
+
+.row.five {
+  display: flex;
+  text-align: center;
 }
 
 .button {
   width: 40px;
   height: 40px;
+  border: 2px solid rgb(80, 80, 80);
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+.button:hover {
+  color: white;
+  background-color: rgb(80, 80, 80);
+  border: solid 2px aqua;
+}
+
+.button.backspace {
+  width: 80px;
+}
+
+.button.space {
+  width: 200px;
 }
