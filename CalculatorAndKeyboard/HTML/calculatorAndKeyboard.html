@@ -1,81 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CalculatorAndKeyboard/CSS/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CalculatorAndKeyboard/CSS/styles.css" />
     <title>Calculator and Keyboard</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="simpleCalc">
-        <div class="display">
-        <div class="header">
-            Developed by<br>Seth Tobias
-        </div>
-        <div class="screen">
+      <div class="display">
+        <div class="header">Developed by<br />Seth Tobias</div>
+        <div class="screen"></div>
+      </div>
+      <div class="buttons">
+        <section class="bseven">
+          <button>7</button>
+        </section>
+        <section class="beight">
+          <button>8</button>
+        </section>
+        <section class="bnine">
+          <button>9</button>
+        </section>
+        <section class="bdivide">
+          <button>&divide;</button>
+        </section>
 
-        </div>
-        </div>
-        <div class="buttons">
-            <section class="bseven">
-                <button>7</button>
-            </section>
-            <section class="beight">
-                <button>8</button>
-            </section>
-            <section class="bnine">
-                <button>9</button>
-            </section>
-            <section class="bdivide">
-                <button>&divide;</button>
-            </section>
+        <section class="bfour">
+          <button>4</button>
+        </section>
+        <section class="bfive">
+          <button>5</button>
+        </section>
+        <section class="bsix">
+          <button>6</button>
+        </section>
+        <section class="btimes">
+          <button>&times;</button>
+        </section>
 
-            <section class="bfour">
-                <button>4</button>
-            </section>
-            <section class="bfive">
-                <button>5</button>
-            </section>
-            <section class="bsix">
-                <button>6</button>
-            </section>
-            <section class="btimes">
-                <button>&times;</button>
-            </section>
-        
-            <section class="bthree">
-                <button>3</button>
-            </section>
-            <section class="btwo">
-                <button>2</button>
-            </section>
-            <section class="bone">
-                <button>1</button>
-            </section>
-            <section class="bminus">
-                <button>&minus;</button>
-            </section>
-        
-            <sction class="bzero">
-                <button>0</button>
-            </sction>
-            <section class="bpoint">
-                <button>.</button>
-            </section>
-            <section class="bplus">
-                <button>&plus;</button>
-            </section>
-            <section class="bequals">
-                <button>&equals;</button>
-            </section>
-        
-        </div>
+        <section class="bthree">
+          <button>3</button>
+        </section>
+        <section class="btwo">
+          <button>2</button>
+        </section>
+        <section class="bone">
+          <button>1</button>
+        </section>
+        <section class="bminus">
+          <button>&minus;</button>
+        </section>
+
+        <sction class="bzero">
+          <button>0</button>
+        </sction>
+        <section class="bpoint">
+          <button>.</button>
+        </section>
+        <section class="bplus">
+          <button>&plus;</button>
+        </section>
+        <section class="bequals">
+          <button>&equals;</button>
+        </section>
+      </div>
     </div>
-    <div class="scientificCalc">
+    <div class="scientificCalc"></div>
+    <br />
+    <div class="keyboard">
+      <div class="row one">
+        <div class="buttonDiv small">
+          <button class="button small">
+            ~<br />
+            `
+          </button>
+        </div>
+        <div class="buttonDiv one">
+          <button class="button">
+            ! <br />
+            1
+          </button>
+        </div>
+        <div class="buttonDiv two">
+          <button class="button">
+            @ <br />
+            2
+          </button>
+        </div>
+        <div class="buttonDiv three">
+          <button class="button">
+            # <br />
+            3
+          </button>
+        </div>
+        <div class="buttonDiv four">
+          <button class="button">
+            4 <br />
+            $
+          </button>
+        </div>
+        <div class="buttonDiv five">
+          <button class="button">
+            5 <br />
+            %
+          </button>
+        </div>
+        <div class="buttonDiv six">
+          <button class="button">
+            6 <br />
+            ^
+          </button>
+        </div>
+        <div class="buttonDiv seven">
+          <button class="button">
+            7 <br />
+            &
+          </button>
+        </div>
+        <div class="buttonDiv eight">
+          <button class="button">
+            * <br />
+            8
+          </button>
+        </div>
+        <div class="buttonDiv nine">
+          <button class="button">9 <br />&#40;;</button>
+        </div>
+        <div class="zero">
+          <button class="button">
+            0 <br />
+            &#41;
+          </button>
+        </div>
+        <div class="buttonDiv dash">
+          <button class="button">-<br />_</button>
+        </div>
+        <div class="buttonDiv plus">
+          <button class="button">+<br />=</button>
+        </div>
+        <div class="buttonDiv backspace">
+          <button class="button">Backspace</button>
+        </div>
+        <div class="buttonDiv num">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv slash">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv asterisk">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv minus">
+          <button class="button"><br /></button>
+        </div>
+      </div>
 
+      <div class="row two">
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+      </div>
+      <div class="row three">
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+      </div>
+      <div class="row four">
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+      </div>
+      <div class="row five">
+        <div class="buttonDivDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+        <div class="buttonDiv">
+          <button class="button"><br /></button>
+        </div>
+      </div>
     </div>
-    <div class="Keyboard">
-
-    </div>
-</body>
+  </body>
 </html>

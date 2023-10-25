@@ -3,56 +3,78 @@
 /* ----------------- Simple Calculator ----------------- */
 
 .simpleCalc {
-    background-color: teal;
-    border: double  rgba(245, 245, 245, 0.404) 5px;
-    height: 18rem;
-    width: 15rem;
-    margin: auto;
-    display: grid;
-    text-align: center;
-    font-weight: 600;
-    color: rgb(0, 86, 167);
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}   
+  background-color: teal;
+  border: double rgba(245, 245, 245, 0.404) 5px;
+  height: 18rem;
+  width: 15rem;
+  margin: auto;
+  display: grid;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(0, 86, 167);
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
 
 .header {
-    text-decoration: underline;
-    background-color: rgb(255, 73, 73);
-    border: double  rgba(245, 245, 245, 0.404) 5px;
-    width: 8rem;
-    height: 3.3rem;
-    margin: auto;
-    grid-row: 1;
+  text-decoration: underline;
+  background-color: rgb(255, 73, 73);
+  border: double rgba(245, 245, 245, 0.404) 5px;
+  width: 8rem;
+  height: 3.3rem;
+  margin: auto;
+  grid-row: 1;
 }
 
 .screen {
-    background-color: aliceblue;
-    border: solid black 2px;
-    height: 4rem;
-    width: 13rem;
-    margin: auto;
-    border-radius: 25%;
-    grid-row: 2;
+  background-color: aliceblue;
+  border: solid black 2px;
+  height: 4rem;
+  width: 13rem;
+  margin: auto;
+  border-radius: 25%;
+  grid-row: 2;
 }
 
 .simpleCalc > .buttons {
-    grid-row: 3;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 button {
-    color: rgb(0, 86, 167);
-    text-align: center;
-    font-weight: 600;
-    background-color: rgba(245, 245, 245, 0.404);
-    border: solid black 2px;
-    padding:  5px;
-    margin: 2px;
-    height: 30px;
-    width: 30px;
-    padding: 4px;
-    border-radius: 40%;
+  color: rgb(0, 86, 167);
+  text-align: center;
+  font-weight: 600;
+  background-color: rgba(245, 245, 245, 0.404);
+  border: solid black 2px;
+  padding: 5px;
+  margin: 2px;
+  height: 30px;
+  width: 30px;
+  padding: 4px;
+  border-radius: 40%;
+}
+
+.keyboard {
+  background-color: teal;
+  border: solid aqua 5px;
+  border-radius: 30px;
+  margin: auto;
+  height: 500px;
+  width: 90%;
+}
+
+.row {
+  display: flex;
+  margin: 0 auto;
+}
+
+.buttonDiv {
+}
+
+.button {
+  width: 40px;
+  height: 40px;
 }
